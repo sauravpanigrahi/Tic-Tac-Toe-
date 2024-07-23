@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    background-color:#4392F1 ;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    border: none;
+    font-size:80px;
+    box-shadow:0px 0px 5px black  ;
+    background-color: #ffffc7;
+    color: deeppink;
+}
+#btn{
+    height:3rem;
+    width:7rem;
+    border-radius: 2rem;
+    border-color:#F5B0CB;
+    font-weight: bolder;
+    box-shadow:0px 0px 5px #DC493A  ;
+}
+#new-btn{
+    height:3rem;
+    width:7rem;
+    border-radius: 2rem;
+    border-color:#F5B0CB;
+    font-weight: bolder;
+    box-shadow:0px 0px 5px #DC493A  ;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 5vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display:none ;
+}
+@media (max-width:480px) {
+
+    .game{
+        height: 70vmin;
+        width: 70vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1vmin;
+
+
+    }
+    .box{
+        height: 18vmin;
+        width: 18vmin;
+        border-radius: 2rem;
+        border: none;
+        font-size:50px;
+        box-shadow:0px 0px 5px black  ;
+        background-color: #ffffc7;
+        color: deeppink;
+
+    }
+    #btn{
+        height:4rem;
+        width:9rem;
+        border-radius: 2rem;
+        border-color:#F5B0CB;
+        font-weight: bolder;
+        box-shadow:0px 0px 5px #DC493A  ;
+    }
+    #new-btn{
+        height:4rem;
+        width:9rem;
+        border-radius: 2rem;
+        border-color:#F5B0CB;
+        font-weight: bolder;
+        box-shadow:0px 0px 5px #DC493A  ;
+    }
+
+}
